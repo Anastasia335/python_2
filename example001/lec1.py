@@ -8,9 +8,9 @@ def factorial (number, count = 1):
     return count
 
 n = int(input('Введите число: '))
-print(f'Набор произведений чисел от 1 до {n} = ', end = '')
+print(f'Набор произведений чисел от 1 до {n} = [', end = '')
 for i in range(1, n + 1):
     if i == n: 
-        print(f'{factorial(i)}')
+        print(f'{factorial(i)}]')
     else:
         print(f'{factorial(i)}', end = ', ')
